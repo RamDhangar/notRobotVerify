@@ -1,0 +1,12 @@
+img{
+    height: 80px;
+    width: 70px;
+}
+.container{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+button{
+    margin: 20px;
+}
