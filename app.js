@@ -69,9 +69,12 @@ document.getElementById("reset").style="display:none";
 document.getElementById("btn").style="display:none";
 if(imageclick[0].id==imageclick[1].id){
     document.getElementById("para").innerHTML="You are a human. Congratulations!"
+    document.getElementById("para").style="background-color:green"
+    
 }else{
     
     document.getElementById("para").innerHTML=" We can't verify you as a human. You selected the non-identical tiles."
+    document.getElementById("para").style="background-color:red"
 }
 
 

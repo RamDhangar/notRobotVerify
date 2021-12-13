@@ -1,7 +1,26 @@
 #container{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: gold dotted 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btndiv{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.btndiv button{
+    margin: 0 auto;
+    width: 90px;
+    height: 25px;
+    margin-top: 20px;
+    background-color: rgb(159, 122, 194);
+    border-radius: 10px;
 }
 #main{
     display: grid;
